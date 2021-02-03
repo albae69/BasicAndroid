@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasicAndroid</string>
+    <string name="apply">APPLY</string>
+    <string name="country">Country</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Birth Date</string>
+</resources>
