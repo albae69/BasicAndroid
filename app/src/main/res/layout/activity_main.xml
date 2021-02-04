@@ -9,16 +9,24 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/btnShowToast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Toast"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:src="@color/design_default_color_error"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+    <Button
+        android:id="@+id/btnChoosePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPhoto" />
 </androidx.constraintlayout.widget.ConstraintLayout>
