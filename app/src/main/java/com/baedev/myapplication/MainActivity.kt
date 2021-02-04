@@ -1,5 +1,6 @@
 package com.baedev.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,13 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnShowToast.setOnClickListener {
-            Toast(this).apply {
-                duration = Toast.LENGTH_LONG
-                view = layoutInflater.inflate(R.layout.custom_toast, clToast)
-                show()
+        btnOpenActivity.setOnClickListener {
+            Intent(this, SecondActivity::class.java).also {
+                startActivity(it)
             }
         }
-
     }
 }
