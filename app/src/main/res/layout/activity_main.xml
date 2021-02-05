@@ -9,34 +9,16 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/btnDialog1"
-        android:layout_width="wrap_content"
+    <Spinner
+
+        android:id="@+id/spMonth"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alert Message"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnDialog2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Single Choice"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDialog1" />
-
-    <Button
-        android:id="@+id/btnDialog3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Multi Choices"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDialog2" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:entries="@array/month"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
