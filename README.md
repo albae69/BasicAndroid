@@ -1,6 +1,5 @@
 # BasicAndroid
-learn passing data between activity
+learn crate a fragment
 
-![Image](https://github.com/albae69/BasicAndroid/blob/passing-data/app/src/main/res/drawable/img_passing_data_1.png)
-![Image](https://github.com/albae69/BasicAndroid/blob/passing-data/app/src/main/res/drawable/img_passing_data_2.png)
-![Image](https://github.com/albae69/BasicAndroid/blob/passing-data/app/src/main/res/drawable/img_passing_data_3.png)
+![Image](https://github.com/albae69/BasicAndroid/blob/fragment/app/src/main/res/drawable/img_fragment_1.png)
+![Image](https://github.com/albae69/BasicAndroid/blob/fragment/app/src/main/res/drawable/img_fragment_2.png)
